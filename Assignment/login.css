@@ -1,0 +1,103 @@
+body{
+	background-image: url(bg5.png);
+}
+.main{
+	height: 600px;
+	width: 600px;
+	margin: 350px;
+	margin-top: 50px;
+}
+/* Bordered form */
+form {
+	background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    item-align: center;
+}
+.container{
+	height: 600px!important;
+}
+.container h1{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+.container p{
+	color:#fff!important;
+	font-size: 22px!important;
+	margin-left: 50px;
+	padding: 0;
+
+}
+.container a{
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	color: #fff;
+	float: right;
+}
+.container a:hover{
+	color: blue;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 450px;
+  height: 40px;
+  padding:  10px;
+  margin: 10px;
+  margin-left: 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #0aa5c1;
+  color: white;
+  padding: 20px;
+  padding-top: 12px;
+  margin: 20px;
+  margin-left: 125px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  font-size: 20px;
+  background-color: #5bab11;
+/* Center the avatar image inside this container */
+}
+.container {
+  padding: 16px;
+  height: 550px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: px;
+  color: #fff;
+  font-size: 10px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+.closebtn{
+	position: relative;
+	top: 0;
+	left: 205px;
+	font-size: 35px!important;
+}

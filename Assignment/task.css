@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding:  0;
+}
+#container{
+	height: 1910px;
+	width: 100%;
+	background-image: url(bg5.png);
+	background-size: cover;
+	
+}
+#banner{
+	margin: 0px;
+	height: 100px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(10px);
+	
+
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-family: Berlin Sans FB;
+}
+/*.text h1{
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
+	font-family: Berlin Sans FB;
+}*/
+
+.btn{
+	background: none;
+	font-size: 25px;
+	color: #fff;
+	border: none;
+	float: right;
+	margin: 20px;
+	padding: 10px;
+	margin-right: 50px;
+	cursor: pointer;
+	left:0;
+	font-family: Berlin Sans FB;
+}
+.btn:hover{
+font-size: 30px;
+}
+.slider{
+	width: 100%;
+	height: 600px;
+	border-radius: 5px;
+	overflow: hidden;
+	
+	
+	animation: slide 2s infinite;
+	
+}
+.slides{
+	width: 500%;
+	height: 600px;
+	display: flex;
+}
+.slides input{
+	display: none;
+	
+}
+.slide{
+	width: 20%;
+	transition: 2s;
+	animation: slide 2s infinite;
+	
+}
+.slide img{
+	width: 100%;
+	height: 550px;
+}
+.navigation-manual{
+	position: absolute;
+	width: 800px;
+	margin-top: 520px;
+	display: flex;
+	justify-content: center;
+	margin-left: 250px;
+}
+.manual-btn{
+	border: 2px solid #fff;
+	padding: 5px;
+	cursor: pointer;
+	transition: 1s;
+	position: relative;
+	justify-content: center;
+	
+}
+.manual-btn:not(:last-child){
+	margin-right: 40px;
+}
+.manual-btn:hover{
+	background:#fff;
+	
+}
+#radio1:checked~ .first{
+	margin-left:0;
+}
+#radio2:checked~ .first{
+	margin-left:-20%;
+}
+#radio3:checked~ .first{
+	margin-left:-40%;
+}
+#radio4:checked~ .first{
+	margin-left:-60%;
+}
+.navigation-auto{
+	margin-top: 460px;
+	
+	position: relative;
+	display: flex;
+	width: 800px;
+	justify-content: center;
+}
+.navigation-auto div{
+	border: 2px solid #FFF;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+	margin-right: 40px;
+}
+#radio1:checked~.navigation-auto.auto-btn1{
+	background: #FFF;
+
+}
+#radio2:checked~.navigation-auto.auto-btn1{
+	background: #FFF;
+
+}
+#radio3:checked~.navigation-auto.auto-btn1{
+	background: #FFF;
+
+}
+#radio4:checked~.navigation-auto.auto-btn1{
+	background: #FFF;
+
+}
+
+
+#aboutus{
+	height: 450px;
+	width: 1100px;
+	background: rgba(86, 86, 86, 0.3);
+	backdrop-filter: blur(10px);
+	margin-left:80px;
+	padding:50px;
+	margin-top: 50px;
+	
+}
+.aboutus2{
+	margin-top: 45px;
+	display: flex;
+}
+#aboutus h1{
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
+	font-family: Berlin Sans FB;
+}
+#aboutus h1:hover{
+	transform: scale(1.2);
+}
+
+#aboutus p{
+	color: #fff;
+	Padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-family: Berlin Sans FB;
+	
+}
+#aboutus p:hover{
+	transform: scale(1.1);
+}
+.aboutus2 img{
+	height: 300px;
+	width: 500px;
+	box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+	margin-left: 50px;
+	cursor: pointer;
+}
+.aboutus2 img:hover{
+	transform: scale(1.2);
+}
+.btn a{
+	text-decoration: none;
+	color: #fff;
+}
+.Services{
+	height: 300px;
+	width: 500px;
+	/*background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(10px);*/
+	margin-left:100px;
+	padding: 50px;
+	margin-top: -30px;
+	display: flex;
+}
+
+.h{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	font-family: Berlin Sans FB;
+	
+}
+.Web{
+	height: 280px;
+	width: 300px;
+	background-color: white;
+	margin: 30px;
+	display: block;
+	border: 0;
+	box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;	
+}
+.Web img{
+	height: 200px;
+	width: 300px;
+}
+.Web:hover{
+	transform: scale(1.2);
+	
+}
+
+.Web h1{
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	margin: 10px;
+	font-family: Berlin Sans FB;
+}
+.Web a{
+	text-decoration: none;
+	color: #228B22;
+	font-size: 20px;
+	margin: 20px;
+}
+.Mobile{
+	height: 280px;
+	width: 300px;
+	background-color: white;
+	margin: 30px;
+	display: block;
+	border: 0;
+	box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	
+}
+
+.Mobile a{
+	text-decoration: none;
+	color: #228B22;
+	font-size: 20px;
+	margin: 20px;
+}
+.Mobile img{
+height: 200px;
+width: 300px;
+}
+.Mobile:hover{
+	transform: scale(1.2);
+}
+.Mobile h1{
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	margin: 10px;
+	font-family: Berlin Sans FB;
+}
+.UI{
+	height: 280px;
+	width: 300px;
+	background-color: white;
+	margin: 30px;
+	display: block;
+	border: 0;
+	box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	
+	}
+.UI img{
+height: 200px;
+width: 300px;
+}
+.UI:hover{
+	
+}
+.UI a{
+	text-decoration: none;
+	color: #228B22;
+	font-size: 20px;
+	margin: 20px;
+}
+.UI h1{
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	margin: 10px;
+	font-family: Berlin Sans FB;
+}
+.UI:hover{
+	
+	transform: scale(1.2);
+}
+
+.footer{
+	height: 100px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(10px);
+	
+}
+.footer p{
+	padding:30px;
+	margin: 30px;
+	color: #fff;
+	text-align: right;
+	font-size: 20px;
+}
